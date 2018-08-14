@@ -16,7 +16,7 @@
     "panel",
     "template"
   ],
-  "author": "nafplann",
+  "author": "Abdul Manaaf Saparuddin <nafplann@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0"

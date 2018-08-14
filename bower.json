@@ -1,0 +1,26 @@
+{
+  "name": "bulma-admin",
+  "description": "admin panel template based on bulma css",
+  "main": "index.js",
+  "authors": [
+    "Abdul Manaaf Saparuddin <nafplann@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bulma",
+    "admin",
+    "panel",
+    "template"
+  ],
+  "homepage": "https://github.com/nafplann/bulma-admin",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.2.0"
+  }
+}
