@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="EFtS0B47HxN7Z3Flkh5fbWHYsw5PR8HYSOL9f6ig">
+    <title>Bulma Admin | KCDEV </title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+    <link rel="stylesheet" href="/css/bulma_override.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/vendor_override.css">
+</head>
+
+<body>
+    <!-- START NAV -->
+    <nav class="navbar columns is-fixed-top" role="navigation" aria-label="main navigation" id="app-header">
+        <div class="navbar-brand column is-2 is-paddingless">
+            <a class="navbar-item" href="/">
+                BULMA ADMIN
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="touchMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div id="touchMenu">
+            
+        </div>
+
+        <div id="navMenu" class="navbar-menu column is-hidden-touch">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="button is-white" onclick="Auth.logout()">
+                        <span class="icon">
+                            <i class="fas fa-bell"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="navbar-item">
+                    <a class="button is-white" onclick="Auth.logout()">
+                        <span class="icon">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <div class="columns" id="app-content">
+
+        <div class="column is-2 is-fullheight is-hidden-touch" id="navigation">
+            <aside class="menu">
+                <p class="menu-label is-hidden-touch">
+                    General
+                </p>
+                <ul class="menu-list">
+                    <li>
+                        <a class="is-active" href="/dashboard">
+                            <span class="icon">
+                                <i class="fas fa-home"></i>
+                            </span> Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/">
+                            <span class="icon">
+                                <i class="fas fa-edit"></i>
+                            </span> Forms
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/">
+                            <span class="icon">
+                                <i class="fas fa-desktop"></i>
+                            </span> UI Elements
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/">
+                            <span class="icon">
+                                <i class="fas fa-table"></i>
+                            </span> Datatables
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="menu-label is-hidden-touch">
+                    Sample Pages
+                </p>
+                <ul class="menu-list">
+                    <li>
+                        <a class="" href="/posts">
+                            <span class="icon">
+                                <i class="fas fa-lock"></i>
+                            </span> Login
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <div class="column is-10" id="page-content">
+            <div class="content-header">
+                <h4 class="title is-4">Dashboard</h4>
+                <span class="separator"></span>
+                <nav class="breadcrumb has-bullet-separator" aria-label="breadcrumbs">
+                    <ul>
+                        <li><a href="#">General</a></li>
+                        <li class="is-active"><a href="#" aria-current="page">Dashboard</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="content-body">
+                <div class="card">
+                    <div class="card-content">
+                        <p class="title">
+                            “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
+                        </p>
+                        <p class="subtitle">
+                            Jeff Atwood
+                        </p>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <span>
+                                View on
+                                <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                            </span>
+                        </p>
+                        <p class="card-footer-item">
+                            <span>
+                                Share on
+                                <a href="#">Facebook</a>
+                            </span>
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="https://kcdev-landing.dev/js/app.js"></script> -->
+</body>
+
+</html>

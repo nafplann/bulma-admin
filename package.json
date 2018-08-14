@@ -1,0 +1,24 @@
+{
+  "name": "bulma-admin",
+  "version": "1.0.0",
+  "description": "admin panel template based on bulma css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nafplann/bulma-admin"
+  },
+  "keywords": [
+    "bulma",
+    "admin",
+    "panel",
+    "template"
+  ],
+  "author": "nafplann",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0"
+  }
+}

@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+    #app-header .navbar-brand .navbar-item:first-child {
+        float: left;
+        height: 4.25rem;
+    }
+
+    #app-content {
+        padding-top: 4.5rem;
+    }
+
+    .navbar-burger {
+        color: #fff;
+    }
+
+    .navbar-burger:hover {
+        color: #8D68AB;
+    }
+
+    #page-content .content-header .separator,
+    #page-content .content-header nav.breadcrumb {
+        display: none;
+    }
+
+    #page-content .content-body .card-filter {
+        flex-direction: column;
+    }
+
+    #page-content .content-body .card-filter .field {
+        margin-bottom: .5rem;
+        margin-right: 0 !important;
+        height: 3rem;
+    }
+
+    #page-content .content-body .card-filter .field.has-addons .control {
+        flex: 1;
+    }
+
+    #page-content .content-body .card-filter .field.has-addons .button {
+        width: 100%;
+    }
+
+    #page-content .content-body .card-filter .field div,
+    #page-content .content-body .card-filter .field div input,
+    #page-content .content-body .card-filter .field div select {
+        width: 100%;
+    }
+
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        justify-content: center;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate {
+        float: inherit;
+    }
+
+    div.dataTables_paginate .pagination-list li {
+        flex-grow: 0;
+    }
+
+    div.table-wrapper {
+        margin-bottom: calc(1.5rem - 0.75rem) !important;
+    }
+} 

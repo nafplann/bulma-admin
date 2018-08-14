@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: .9rem;
+}
+
+nav.navbar {
+    border-top: 4px solid #8D68AB;
+    -webkit-box-shadow: 0 1px 15px 1px rgba(69,65,78,.1);
+    box-shadow: 0 1px 15px 1px rgba(69,65,78,.1);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
+    height: 3em;
+    min-width: 3em;
+}
+
+#app-header {
+    margin: 0;
+}
+
+#app-header .navbar-brand {
+    background: #282a3c;
+}
+
+#app-header .navbar-brand .navbar-item:first-child {
+    padding: 0 40px;
+    text-transform: bold;
+    color: #C7C8D2;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+#navigation {
+    padding: 0;
+    background: #292C3A;
+}
+
+#navigation .menu {
+    font-size: .9rem;
+}
+
+#navigation p.menu-label {
+    color: #868aa8;
+    padding: 0px 40px;
+    margin-top: 20px;
+}
+
+#navigation li a {
+    color: #868aa8;
+    padding: 9px 40px;
+}
+
+#navigation li a .icon {
+    color: #525672;
+}
+
+#navigation li a.is-active {
+    color: #8D68AB;
+    background-color: transparent;
+}
+
+#navigation a.is-active .icon {
+    color: #868aa8;
+}
+
+#navigation a:hover {
+    transition: background-color .3s;
+    background-color: #2C2F3D;
+}
+
+#navigation a:hover .icon {
+    color: #868aa8;
+}
+
+#touchMenu {
+    display: none;
+    height: calc(100vh - 4.4rem);
+    overflow: auto;
+}
+
+#touchMenu.is-active {
+    display: block;
+}
+
+#touchMenu .menu-list a {
+    border-radius: 0px;
+    padding: 1em 2.4em;
+}
+
+#app-content {
+    background: #F2F3F8;
+    margin: 0;
+    padding-top: 5.4rem;
+    min-height: 100vh;
+}
+
+#page-content {
+    padding: 2rem;
+}
+
+#page-content .content-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+#page-content .content-header .title {
+    margin: 0;
+}
+
+#page-content .content-header .separator {
+    border-left: 2px solid #e2e5ec;
+    height: 30px;
+    margin: 0 20px;
+}
+
+#page-content .content-body .card-filter {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#page-content .content-body .card-filter .field {
+    margin-bottom: 0;
+}
+
+#page-content .content-body .card-filter .field:not(:last-child) {
+    margin-right: 0.75rem;
+}
+
+#page-content .content-body .card-filter .field:first-child {
+    flex-grow: 1;
+}
+
+#page-content .content-body form .field.action {
+    margin-top: 1.5rem;
+}
+
+#page-content .content-body table .field.action.is-grouped {
+    justify-content: center;
+}
+
+#page-content .content-body table .field.action.is-grouped > .control:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+#page-content .content-body table .field.action .button.is-text {
+    text-decoration: none;
+}
+
+#page-content .content-body table .field.action .button:hover {
+    background: #8D68AB;
+    color: #fff;
+}
