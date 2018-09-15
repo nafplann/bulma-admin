@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "fontawesome": "^5.2.0"
+    "fontawesome": "^5.2.0",
+    "chart.js": "^2.7.2"
   }
 }
