@@ -20,8 +20,8 @@ body, button, input, select, textarea {
 }
 
 .button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
-    height: 3em;
-    min-width: 3em;
+    /* height: 3em;
+    min-width: 3em; */
 }
 
 .control.has-icons-right .input, 
@@ -87,6 +87,39 @@ body, button, input, select, textarea {
     color: #4a4a4a;
     max-width: 100%;
     position: relative;
+}
+
+.box {
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08);
+    box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08);
+}
+
+.box.quick-stats {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(0,0,0,0.3);
+    border-bottom-style: solid;
+}
+
+.quick-stats-icon {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.quick-stats-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-stats-content .title {
+    margin-bottom: 1rem;
+    color: #fff;
 }
 
 .title,
@@ -378,7 +411,7 @@ nav.navbar {
 #app-content {
     background: #F2F3F8;
     margin: 0;
-    padding-top: 5.4rem;
+    padding-top: 5rem;
     min-height: 100vh;
 }
 
@@ -575,4 +608,27 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, 
 
 .ss-main .ss-single-selected .ss-arrow {
     margin: 0 9px 0 5px;
+}
+
+figure.avatar img {
+    max-height: 100%;
+    /* border-radius: 100px; */
+}
+
+.card-image:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+}
+
+.card-image img {
+    opacity: 0.5;
+}
+
+.jqstooltip {
+    width: auto !important;
+    height: auto !important;
 }
