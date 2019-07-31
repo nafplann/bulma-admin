@@ -1,8 +1,0 @@
-/node_modules
-/bower_components
-/vendor
-/.idea
-/.vscode
-/.vagrant
-npm-debug.log
-yarn-error.log
