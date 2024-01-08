@@ -2,7 +2,7 @@
 Free admin panel template based on bulma css
 
 ## Demo
-[https://nafplann.com/bulma-admin/](https://nafplann.com/bulma-admin/)
+[https://bulma-admin.sayamoko.com](https://bulma-admin.sayamoko.com)
 
 ## Screenshoot
 ![Screenshoot](https://raw.githubusercontent.com/nafplann/bulma-admin/master/screenshot.png)
